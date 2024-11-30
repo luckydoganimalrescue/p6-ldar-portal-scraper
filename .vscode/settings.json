@@ -1,0 +1,44 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "always",
+        "source.addMissingImports": "always",
+        "source.removeUnusedImports": "always",
+        "source.sortImports": "always",
+        "source.cleanImports": "always",
+    },
+    "flake8.importStrategy": "fromEnvironment",
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "mypy-type-checker.importStrategy": "fromEnvironment",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "flake8.args": [
+        "--max-line-length=120"
+    ],
+    "python.languageServer": "Pylance",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.launchArgs": [
+        "--none"
+    ],
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "Aenv",
+        "Aflag",
+        "auditlog",
+        "auditlogs",
+        "Fdefault",
+        "ldclient",
+        "mainbody"
+    ],
+}

@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter",
+        "ms-python.flake8",
+        "ms-python.isort",
+        "mikehillyer.vscode-mypy",
+        "ms-toolsai.pylance",
+        "streetsidesoftware.code-spell-checker"
+    ],
+    "unwantedRecommendations": []
+}
